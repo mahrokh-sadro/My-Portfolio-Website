@@ -27,10 +27,10 @@ export const projects = [
     id: 2,
   },
   {
-    title: 'Unichat',
-    description: "events that happened in their lives.",
+    title: 'Adviser',
+    description: "change meeeeeeeeeeeeeeeeee",
     image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
+    tags: ['React', 'ChatEngine', 'Firebase/////////////////////////'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 3,
