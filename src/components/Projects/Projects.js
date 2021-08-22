@@ -10,10 +10,31 @@ const Projects = () => (
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
       {projects.map(project => (
-       <BlogCard key={project.id}>
+        <BlogCard key={project.id}>
+          <Img src={project.image} />
+          <TitleContent>
+            <HeaderThree title>{project.title}</HeaderThree>
+            <Hr />
+          </TitleContent>
+          <CardInfo>{project.description}</CardInfo>
+          <div>
+            <TitleContent>Stack</TitleContent>
+            <TagList>
+              {project.tags.map(tag => (
+                <Tag>{tag}</Tag>
+              ))}
+            </TagList>
+          </div>
 
-       </BlogCard>
 
+          <UtilityList>
+            <ExternalLinks href={project.visit}>Code</ExternalLinks>
+            <ExternalLinks href={project.source}>Source</ExternalLinks>
+          </UtilityList>
+
+
+
+        </BlogCard>
       ))}
     </GridContainer>
   </Section>
