@@ -14,7 +14,7 @@ const Hero = (props) => (
       <SectionText>
         My name is Mahrokh Sadro. I am a web programmer. Welcome to my web site!
    </SectionText>
-   <Button onClick={()=>window.location.href='/about'}>Learn More</Button>
+   <Button onClick={()=>window.location.href='#about'}>Learn More</Button>
     </LeftSection>
 
   </Section>
