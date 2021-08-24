@@ -9,7 +9,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      My name is Mahrokh. I am a web programmer. Welcome to my web site!
+      My name is Mahrokh. I am a computer programmer. More projects will be uploaded soon...
       </SectionText>
       </Section>
   );
