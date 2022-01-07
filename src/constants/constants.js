@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Dream Travel Agency",
     description: "...",
-    image: "/images/3.jpg",
+    image: "/images/0.jfif",
     tags: ["Mongodb", "Express", "Node"],
     source: "https://github.com/mahrokh-sadro/Dream-Agency-Brochure.git",
     visit: "https://dream-agency.herokuapp.com/",
