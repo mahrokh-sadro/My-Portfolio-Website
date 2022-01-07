@@ -30,10 +30,10 @@ export const projects = [
   {
     title: "Blue Sky Weather App",
     description: "weather condition of cities allover the world by fetching from APIs",
-    image: "/images/4.jpg",
+    image: "/images/5.jpg",
     tags: ["React", "APIs"],
-    source: "https://github.com/mahrokh-sadro/Hopeful-Quote-Generator.git",
-    visit: "https://hopeful-quote-generator.netlify.app/",
+    source: "https://github.com/mahrokh-sadro/Blue-Sky-Weather-App.git",
+    visit: "https://blue-sky-weather-app.netlify.app/",
     id: 4,
   },
   {
