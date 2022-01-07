@@ -1,23 +1,23 @@
 export const projects = [
   {
-    title: "Online Travel Agency",
-    description: "coming soon...",
+    title: "Dream Travel Agency",
+    description: "...",
     image: "/images/3.jpg",
     tags: ["Mongodb", "Express", "Node"],
-    source: "https://github.com/mahrokh-sadro/webb/tree/alt-history",
-    visit: "https://web322-asg1n2.herokuapp.com/",
+    source: "https://github.com/mahrokh-sadro/Dream-Agency-Brochure.git",
+    visit: "https://dream-agency.herokuapp.com/",
     id: 0,
   },
-  {
-    title: "News App using AI",
-    description:
-      "coming soon...future is for artificial intelligence websites and apps",
-    image: "/images/1.jpg",
-    tags: ["React", "JavaScript", "Alan AI"],
-    source: "",
-    visit: "",
-    id: 1,
-  },
+  // {
+  //   title: "News App using AI",
+  //   description:
+  //     "coming soon...future is for artificial intelligence websites and apps",
+  //   image: "/images/1.jpg",
+  //   tags: ["React", "JavaScript", "Alan AI"],
+  //   source: "",
+  //   visit: "",
+  //   id: 1,
+  // },
   {
     title: "Employee Management",
     description: "storing information of employees and departments",
