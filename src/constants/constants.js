@@ -1,23 +1,13 @@
 export const projects = [
   {
-    title: "Dream Travel Agency",
+    title: "Emart online shop",
     description: "...",
-    image: "/images/0.jfif",
+    image: "/images/3.gif",
     tags: ["Mongodb", "Express", "Node"],
     source: "https://github.com/mahrokh-sadro/Dream-Agency-Brochure.git",
     visit: "https://dream-agency.herokuapp.com/",
-    id: 0,
+    id: 4,
   },
-  // {
-  //   title: "News App using AI",
-  //   description:
-  //     "coming soon...future is for artificial intelligence websites and apps",
-  //   image: "/images/1.jpg",
-  //   tags: ["React", "JavaScript", "Alan AI"],
-  //   source: "",
-  //   visit: "",
-  //   id: 1,
-  // },
   {
     title: "Employee Management",
     description: "storing information of employees and departments",
@@ -27,14 +17,35 @@ export const projects = [
     visit: "https://xyzxx.herokuapp.com/",
     id: 2,
   },
+
+  {
+    title: "Dream Travel Agency",
+    description: "...",
+    image: "/images/0.jpg",
+    tags: ["Mongodb", "Express", "Node"],
+    source: "https://github.com/mahrokh-sadro/Dream-Agency-Brochure.git",
+    visit: "https://dream-agency.herokuapp.com/",
+    id: 3,
+  },
+
+  {
+    title: "Mars Rover Page",
+    description: "...",
+    image: "/images/66.gif",
+    tags: ["Mongodb", "Express", "Node"],
+    source: "https://github.com/mahrokh-sadro/Dream-Agency-Brochure.git",
+    visit: "https://dream-agency.herokuapp.com/",
+    id: 6,
+  },
   {
     title: "Blue Sky Weather App",
-    description: "weather condition of cities allover the world by fetching from APIs",
+    description:
+      "weather condition of cities allover the world by fetching from APIs",
     image: "/images/5.jpg",
     tags: ["React", "APIs"],
     source: "https://github.com/mahrokh-sadro/Blue-Sky-Weather-App.git",
     visit: "https://blue-sky-weather-app.netlify.app/",
-    id: 4,
+    id: 1,
   },
   {
     title: "Quote Generator",
@@ -43,6 +54,6 @@ export const projects = [
     tags: ["React", "APIs"],
     source: "https://github.com/mahrokh-sadro/Hopeful-Quote-Generator.git",
     visit: "https://hopeful-quote-generator.netlify.app/",
-    id: 3,
+    id: 0,
   },
 ];

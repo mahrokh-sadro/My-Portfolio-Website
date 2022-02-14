@@ -1,3 +1,5 @@
 # My-Portfolio-Website
 
-https://mahrokh-sadro.netlify.app/
+https://mahrokhsadro.netlify.app/
+
+npm run dev
