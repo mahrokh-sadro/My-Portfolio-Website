@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: "Emart online shop",
-    description: "Emart is an ecommerce website",
+    description: "Emart is an ecommerce website using MERN stack",
     image: "/images/3.gif",
     tags: ["Mongodb", "Express", "Reactjs", "Nodejs"],
     source: "https://github.com/mahrokh-sadro/myEmart-front.git",
