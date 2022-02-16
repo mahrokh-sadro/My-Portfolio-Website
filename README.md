@@ -2,4 +2,4 @@
 
 https://mahrokhsadro.netlify.app/
 
-npm run dev
+run locally:npm run dev
