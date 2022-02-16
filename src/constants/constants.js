@@ -1,11 +1,11 @@
 export const projects = [
   {
     title: "Emart online shop",
-    description: "...",
+    description: "Emart is an ecommerce website",
     image: "/images/3.gif",
-    tags: ["Mongodb", "Express", "Node"],
-    source: "https://github.com/mahrokh-sadro/Dream-Agency-Brochure.git",
-    visit: "https://dream-agency.herokuapp.com/",
+    tags: ["Mongodb", "Express", "Reactjs", "Nodejs"],
+    source: "https://github.com/mahrokh-sadro/myEmart-front.git",
+    visit: "https://eemart.netlify.app/",
     id: 4,
   },
   {
@@ -14,15 +14,15 @@ export const projects = [
     image: "/images/2.jpg",
     tags: ["Express", "Mongodb", "Postgres"],
     source: "https://github.com/mahrokh-sadro/employeeManagementWebsite",
-    visit: "https://xyzxx.herokuapp.com/",
+    visit: "https://monitor-resources.herokuapp.com/",
     id: 2,
   },
 
   {
     title: "Dream Travel Agency",
-    description: "...",
+    description: "online brochure for the travel agency",
     image: "/images/0.jpg",
-    tags: ["Mongodb", "Express", "Node"],
+    tags: ["Mongodb", "Express", "Nodejs"],
     source: "https://github.com/mahrokh-sadro/Dream-Agency-Brochure.git",
     visit: "https://dream-agency.herokuapp.com/",
     id: 3,
@@ -30,11 +30,11 @@ export const projects = [
 
   {
     title: "Mars Rover Page",
-    description: "...",
+    description: "pulling data from NASA APIs",
     image: "/images/66.gif",
-    tags: ["Mongodb", "Express", "Node"],
-    source: "https://github.com/mahrokh-sadro/Dream-Agency-Brochure.git",
-    visit: "https://dream-agency.herokuapp.com/",
+    tags: ["Reactjs", "Nodejs"],
+    source: "https://github.com/mahrokh-sadro/marsRover.git",
+    visit: "https://mars-rover-page.herokuapp.com",
     id: 6,
   },
   {
@@ -42,7 +42,7 @@ export const projects = [
     description:
       "weather condition of cities allover the world by fetching from APIs",
     image: "/images/5.jpg",
-    tags: ["React", "APIs"],
+    tags: ["Reactjs", "APIs"],
     source: "https://github.com/mahrokh-sadro/Blue-Sky-Weather-App.git",
     visit: "https://blue-sky-weather-app.netlify.app/",
     id: 1,
@@ -51,7 +51,7 @@ export const projects = [
     title: "Quote Generator",
     description: "creating random quotes by fetching from APIs",
     image: "/images/4.jpg",
-    tags: ["React", "APIs"],
+    tags: ["Reactjs", "APIs"],
     source: "https://github.com/mahrokh-sadro/Hopeful-Quote-Generator.git",
     visit: "https://hopeful-quote-generator.netlify.app/",
     id: 0,
