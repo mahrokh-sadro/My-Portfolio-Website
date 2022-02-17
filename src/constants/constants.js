@@ -1,13 +1,24 @@
 export const projects = [
   {
     title: "Emart online shop",
-    description: "Emart is an ecommerce website using MERN stack",
+    description: "Emart is an ecommerce website",
     image: "/images/3.gif",
     tags: ["Mongodb", "Express", "Reactjs", "Nodejs"],
     source: "https://github.com/mahrokh-sadro/myEmart-front.git",
     visit: "https://eemart.netlify.app/",
     id: 4,
   },
+
+  {
+    title: "Cryptoverse",
+    description: "Cryptocurrency App",
+    image: "/images/9gif.gif",
+    tags: ["Reactjs", "Redux Toolkit", "Ant Design", " Chart.js"],
+    source: "https://github.com/mahrokh-sadro/crypto.git",
+    visit: "https://crypto-verse-news.netlify.app/",
+    id: 7,
+  },
+
   {
     title: "Employee Management",
     description: "storing information of employees and departments",
