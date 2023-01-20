@@ -35,7 +35,7 @@ export const projects = [
     image: "/images/0.jpg",
     tags: ["Mongodb", "Express", "Nodejs"],
     source: "https://github.com/mahrokh-sadro/Dream-Agency-Brochure.git",
-    visit: "https://dream-agency.herokuapp.com/",
+    visit: "https://dream-aggency.herokuapp.com/",
     id: 3,
   },
 
@@ -45,7 +45,7 @@ export const projects = [
     image: "/images/66.gif",
     tags: ["Reactjs", "Nodejs"],
     source: "https://github.com/mahrokh-sadro/marsRover.git",
-    visit: "https://mars-rover-page.herokuapp.com",
+    visit: "https://mars-roverr.netlify.app/",
     id: 6,
   },
   {
