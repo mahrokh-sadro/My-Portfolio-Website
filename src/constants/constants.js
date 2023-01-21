@@ -19,15 +19,15 @@ export const projects = [
     id: 7,
   },
 
-  {
-    title: "Employee Management",
-    description: "storing information of employees and departments",
-    image: "/images/2.jpg",
-    tags: ["Express", "Mongodb", "Postgres"],
-    source: "https://github.com/mahrokh-sadro/employeeManagementWebsite",
-    visit: "https://monitor-resources.herokuapp.com/",
-    id: 2,
-  },
+  // {
+  //   title: "Employee Management",
+  //   description: "storing information of employees and departments",
+  //   image: "/images/2.jpg",
+  //   tags: ["Express", "Mongodb", "Postgres"],
+  //   source: "https://github.com/mahrokh-sadro/employeeManagementWebsite",
+  //   visit: "https://monitor-resources.herokuapp.com/",
+  //   id: 2,
+  // },
 
   {
     title: "Dream Travel Agency",
