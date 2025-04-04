@@ -16,34 +16,68 @@ import {
 const Header = () => (
   <Container>
     <Div1>
-      <Link href="/">
-        <a
-          style={{
-            display: "flex",
-            alignItems: "center",
-            color: "white",
-            marginBottom: "20px",
-          }}
-        >
-          <DiCssdeck size="3rem" />
-          <Span>Portfolio</Span>
-        </a>
+      <Link
+        href="/"
+        style={{
+          display: "flex",
+          alignItems: "center",
+          color: "white",
+          marginBottom: "20px",
+        }}
+      >
+        <DiCssdeck size="3rem" />
+        <Span>Portfolio</Span>
       </Link>
     </Div1>
     <Div2>
       <li>
-        <Link href="#projects">
-          <NavLink>Projects</NavLink>
+        {/* <Link href="#projects">
+          <NavLink>
+          Projects
+          </NavLink>
+        </Link> */}
+        <Link
+          href="#tech"
+          style={{
+            display: "inline",
+            fontSize: "2rem",
+            lineHeight: "32px",
+            color: "rgba(255, 255, 255, 0.75)",
+            transition: "0.4s ease",
+            textDecoration: "none",
+          }}
+        >
+          Projects
         </Link>
       </li>
       <li>
-        <Link href="#tech">
-          <NavLink>Technologies</NavLink>
+        <Link
+          href="#tech"
+          style={{
+            display: "inline",
+            fontSize: "2rem",
+            lineHeight: "32px",
+            color: "rgba(255, 255, 255, 0.75)",
+            transition: "0.4s ease",
+            textDecoration: "none",
+          }}
+        >
+          Technologies
         </Link>
       </li>
       <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
+        <Link
+          href="#about"
+          style={{
+            display: "inline",
+            fontSize: "2rem",
+            lineHeight: "32px",
+            color: "rgba(255, 255, 255, 0.75)",
+            transition: "0.4s ease",
+            textDecoration: "none",
+          }}
+        >
+          About
         </Link>
       </li>
     </Div2>
