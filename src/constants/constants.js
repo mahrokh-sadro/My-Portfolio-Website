@@ -19,8 +19,26 @@ export const projects = [
     id: 4,
   },
   {
+    title: "My Airbnb",
+    description: "A web application for booking rooms",
+    image: "/images/airbnb.gif",
+    tags: ["Next.js", "MongoDB", "Prisma", "NextAuth.js"],
+    source: "https://github.com/mahrokh-sadro/my-airbnb.git",
+    visit: "https://my-airbnb-six.vercel.app/",
+    id: 3,
+  },
+  {
+    title: "Learning Mng System",
+    description: "LMS is a web application for learning",
+    image: "/images/lms.gif",
+    tags: ["Next.js", "GraphQL", "Clerk", "Tailwind"],
+    source: "https://github.com/mahrokh-sadro/LMS.git",
+    visit: "https://lms-dxvagm6x8-mahrokhsadros-projects.vercel.app/",
+    id: 3,
+  },
+  {
     title: "Cryptoverse",
-    description: "Cryptocurrency App",
+    description: "Cryptocurrency App with latest news",
     image: "/images/9gif.gif",
     tags: ["Reactjs", "Redux Toolkit", "Ant Design", " Chart.js"],
     source: "https://github.com/mahrokh-sadro/crypto.git",
@@ -38,15 +56,15 @@ export const projects = [
   //   id: 2,
   // },
 
-  {
-    title: "Dream Travel Agency",
-    description: "online brochure for the travel agency",
-    image: "/images/0.jpg",
-    tags: ["Mongodb", "Express", "Nodejs"],
-    source: "https://github.com/mahrokh-sadro/Dream-Agency-Brochure.git",
-    visit: "https://dream-aggency.herokuapp.com/",
-    id: 3,
-  },
+  // {
+  //   title: "Dream Travel Agency",
+  //   description: "online brochure for the travel agency",
+  //   image: "/images/0.jpg",
+  //   tags: ["Mongodb", "Express", "Nodejs"],
+  //   source: "https://github.com/mahrokh-sadro/Dream-Agency-Brochure.git",
+  //   visit: "https://dream-aggency.herokuapp.com/",
+  //   id: 3,
+  // },
 
   {
     title: "Mars Rover Page",
