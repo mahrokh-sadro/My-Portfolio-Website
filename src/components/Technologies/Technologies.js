@@ -1,15 +1,27 @@
-import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import React from "react";
+import { DiFirebase, DiReact, DiZend, DiGit } from "react-icons/di";
+import {
+  Section,
+  SectionDivider,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import {
+  List,
+  ListContainer,
+  ListItem,
+  ListParagraph,
+  ListTitle,
+} from "./TechnologiesStyles";
 
-const Technologies = () =>  (
+const Technologies = () => (
   <Section id="tech">
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I'm familiar with a range a technologies in the web development world.
-      From Back-end To Design
+      I have hands-on experience with a variety of technologies in web
+      development — from designing responsive user interfaces to building
+      full-stack applications.
     </SectionText>
     <List>
       <ListItem>
@@ -19,8 +31,11 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-          React.js <br />
-           Express
+            Next.js <br />
+            Angular <br />
+            React.js <br />
+            Tailwind CSS <br />
+            TypeScript
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -31,23 +46,30 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-          Node  <br />
-            Postgres<br />
-            Mongodb
+            Node.js <br />
+            Express.js <br />
+            GraphQL <br />
+            MongoDB <br />
+            PostgreSQL
+            <br />
+            MySQL
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        {/* <picture>
-          <DiZend size="3rem" />
-        </picture> */}
-        {/* <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+        <picture>
+          <DiGit size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Tools & Platforms</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            tools like Figma
+            Git & GitHub <br />
+            Azure Devops <br />
+            Clerk Auth <br />
+            Stripe <br />
+            REST APIs
           </ListParagraph>
-        </ListContainer> */}
+        </ListContainer>
       </ListItem>
     </List>
     <SectionDivider colorAlt />
