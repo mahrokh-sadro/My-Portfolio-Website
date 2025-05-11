@@ -33,7 +33,7 @@ export const projects = [
     image: "/images/lms.gif",
     tags: ["Next.js", "GraphQL", "Clerk", "Tailwind"],
     source: "https://github.com/mahrokh-sadro/LMS.git",
-    visit: "https://lms-dxvagm6x8-mahrokhsadros-projects.vercel.app/",
+    visit: "https://lms-navy-sigma.vercel.app/",
     id: 3,
   },
   {
