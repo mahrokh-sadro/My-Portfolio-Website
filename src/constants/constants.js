@@ -8,16 +8,16 @@ export const projects = [
   //   visit: "https://eemart.netlify.app/",
   //   id: 4,
   // },
-  {
-    title: "Emerce",
-    description: "Emerce is an ecommerce website",
-    image: "/images/3.gif",
-    tags: ["Angular", "ASP.Net", "Redis", "Stripe", "MYSQL"],
-    source: "https://github.com/mahrokh-sadro/ecommerce-ui.git",
-    visit:
-      "https://e-merce-gqaxdjf4a3abb9gn.canadacentral-01.azurewebsites.net",
-    id: 4,
-  },
+  // {
+  //   title: "Emerce",
+  //   description: "Emerce is an ecommerce website",
+  //   image: "/images/3.gif",
+  //   tags: ["Angular", "ASP.Net", "Redis", "Stripe", "MYSQL"],
+  //   source: "https://github.com/mahrokh-sadro/ecommerce-ui.git",
+  //   visit:
+  //     "https://e-merce-gqaxdjf4a3abb9gn.canadacentral-01.azurewebsites.net",
+  //   id: 4,
+  // },
   {
     title: "My Airbnb",
     description: "A web application for booking rooms",
